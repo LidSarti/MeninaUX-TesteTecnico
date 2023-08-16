@@ -1,0 +1,9 @@
+.rodape-container {
+    background-color: #FFF;
+    text-align: center;
+    padding: 20px;
+}
+
+.rodape-container p {
+    margin: 0;
+}

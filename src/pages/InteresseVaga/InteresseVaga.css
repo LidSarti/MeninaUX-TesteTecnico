@@ -1,0 +1,68 @@
+.motivacao-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 20px; 
+}
+
+.title-interesse {
+    margin-bottom: 10px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.title-interesse h2 {
+    font-size: 64px;
+    font-weight: 500;
+}
+
+.retangulo-centralizado {
+    background-color: #F1F1F1;
+    border-radius: 10px;
+}
+  
+.texto-motivacao {
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 40px;
+}
+
+.texto-motivacao p {
+    margin-bottom: 15px;
+}
+
+.detalhe-aba {
+    width: 100%;
+    height: 40px; 
+    background-color: #fff;
+    border-radius: 10px 10px 0 0; 
+    margin-bottom: 10px;
+}
+
+.bolinhas {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    z-index: 1; 
+}
+  
+.bolinha {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 5px;
+}
+  
+.vermelha {
+    background-color: #FF5E5E;
+}
+  
+.verde {
+    background-color: #96FF94;
+}
+  
+.amarela {
+    background-color: #FFDBA6;
+}

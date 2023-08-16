@@ -1,0 +1,139 @@
+.sunny-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+div .sun {
+    position: absolute;
+    top:300px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #FFF6A6;
+    filter: blur(20px);
+    z-index: -1;
+}
+
+.name {
+    font-weight: 300;
+    font-size: 128px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    z-index: 2;
+    position: relative;
+}
+
+.cloud-container {
+    position: absolute;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cloud {
+    height: 7rem;
+    width: 30rem;
+    border-radius: 50px;
+    background-color: #FFF;
+    position: relative;
+    animation: moveCloud 6s ease-in-out infinite alternate;
+    transform: translateX(0);
+    transition: transform 2s ease-in-out;
+    animation-delay: 0.5s;
+    animation: bigCloud 6s ease-in-out infinite;
+}
+
+.cloud-small {  
+    animation: smallCloud 6s ease-in-out infinite;
+}
+
+.cloud::after {
+    content: '';
+    height: 14rem;
+    width: 14rem;
+    border-radius: 50%;
+    background-color: #FFF;
+    position: absolute;
+    top: -8rem;
+    right: 3rem;
+}
+
+.cloud::before {
+    content: '';
+    height: 12rem;
+    width: 12rem;
+    border-radius: 50%;
+    background-color: #FFF;
+    position: absolute;
+    top: -6rem;
+    right: 14rem;
+}
+
+@keyframes smallCloud {
+    0% {
+        transform: translateX(0) scale(.7);
+    }
+
+    50% {
+        transform: translateX(-50px) scale(.7);
+    }
+
+    100% {
+        transform: translateX(0) scale(.7);
+    }
+}
+
+@keyframes bigCloud {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(100px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@media (max-width: 768px) {
+    .sun {
+        top: 200px;
+    }
+
+    .name {
+        font-size: 64px;
+    }
+
+    .cloud {
+        height: 3.5rem;
+        width: 15rem;
+    }
+
+    .cloud::after {
+        height: 7rem;
+        width: 7rem;
+        top: -4rem;
+        right: 1.5rem;
+    }
+
+    .cloud::before {
+        height: 6rem;
+        width: 6rem;
+        top: -3rem;
+        right: 7rem;
+    }
+}
