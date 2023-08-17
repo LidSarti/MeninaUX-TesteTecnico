@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Menina de UX Landing Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bem-vindo(a) à Landing Page da Menina de UX! Este projeto consiste em uma página de apresentação pessoal e de motivação para o voluntariado na ONG Menina de UX, que busca capacitar jovens meninas interessadas em design e tecnologia. Esta página é desenvolvida em React.js e possui seções que destacam a paixão pela tecnologia, a trajetória acadêmica e profissional, interesses pessoais e motivação para participar do voluntariado.
 
-## Available Scripts
+## Visão Geral
 
-In the project directory, you can run:
+Esta landing page é uma representação interativa e responsiva das atividades e interesses da autora, Lídia Sarti. Ela é dividida em várias seções:
 
-### `npm start`
+1. **Banner:** Introdução à página com destaque visual e informações básicas.
+2. **Sobre Acadêmico e Profissional:** Destaque da formação acadêmica e experiência profissional.
+3. **Sobre Pessoal:** Exposição dos interesses pessoais e paixões.
+4. **Interesse na Vaga:** Exposição da motivação e desejo de contribuir com o voluntariado na Menina de UX.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Funcionalidades
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Responsividade: A página é otimizada para exibição em diversos dispositivos, garantindo uma experiência consistente.
+- Animações: A página conta com animações sutis para tornar a experiência mais atraente e dinâmica.
+- Estilo Único: O estilo visual da página é cuidadosamente escolhido para refletir a personalidade da autora.
 
-### `npm test`
+## Tecnologias Utilizadas
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React.js: Biblioteca JavaScript para construção de interfaces interativas.
+- CSS: Estilização da página para uma apresentação visual atraente.
+- Componentização: Utilização de componentes reutilizáveis para organizar e estruturar o conteúdo.
 
-### `npm run build`
+## Como Executar o Projeto
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone este repositório em sua máquina local.
+2. Navegue até o diretório do projeto via terminal.
+3. Execute `npm install` para instalar as dependências.
+4. Execute `npm start` para iniciar a aplicação em seu navegador.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contribuição
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Contribuições são bem-vindas! Se você deseja melhorar ou adicionar algo à página, sinta-se à vontade para abrir um pull request.
 
-### `npm run eject`
+## Contato
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Autora: Lídia Sarti
+- Email: lidiasarti@email.com
+- LinkedIn: [Linkedin](https://www.linkedin.com/in/lidiasarti)
+- GitHub: [GitHub](https://github.com/lidiasarti)
