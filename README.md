@@ -33,10 +33,3 @@ Esta landing page é uma representação interativa e responsiva das atividades 
 ## Contribuição
 
 Contribuições são bem-vindas! Se você deseja melhorar ou adicionar algo à página, sinta-se à vontade para abrir um pull request.
-
-## Contato
-
-- Autora: Lídia Sarti
-- Email: lidiasarti@email.com
-- LinkedIn: [Linkedin](https://www.linkedin.com/in/lidiasarti)
-- GitHub: [GitHub](https://github.com/lidiasarti)
